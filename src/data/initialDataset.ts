@@ -1,0 +1,3570 @@
+import { Dataset } from "@/types";
+
+export const initialDataset: Dataset = {
+  "stores": [
+    {
+      "id": "loja-sao-sebastiao",
+      "slug": "sao-sebastiao",
+      "name": "São Sebastião",
+      "displayName": "Kika São Sebastião",
+      "city": "Palhoça",
+      "state": "SC",
+      "neighborhood": "São Sebastião",
+      "address": "Rua Tomaz Domingos da Silveira, 3041",
+      "zip": null,
+      "phone": null,
+      "whatsapp": null,
+      "lat": -27.658,
+      "lng": -48.672,
+      "photo": "/stores/loja-1.webp",
+      "photoIsIllustrative": true,
+      "hours": [
+        {
+          "day": 0,
+          "opens": "10:00",
+          "closes": "02:00"
+        },
+        {
+          "day": 1,
+          "opens": "10:00",
+          "closes": "02:00"
+        },
+        {
+          "day": 2,
+          "opens": "10:00",
+          "closes": "02:00"
+        },
+        {
+          "day": 3,
+          "opens": "10:00",
+          "closes": "02:00"
+        },
+        {
+          "day": 4,
+          "opens": "10:00",
+          "closes": "02:00"
+        },
+        {
+          "day": 5,
+          "opens": "10:00",
+          "closes": "02:00"
+        },
+        {
+          "day": 6,
+          "opens": "10:00",
+          "closes": "02:00"
+        }
+      ],
+      "features": [
+        "retirada"
+      ],
+      "zipPrefixes": [
+        "88135",
+        "88136",
+        "88137"
+      ],
+      "provenance": {
+        "name": "oficial",
+        "address": "oficial",
+        "hours": "oficial",
+        "contact": "a-confirmar"
+      },
+      "notes": "Endereço e horário publicados no Instagram oficial em mai/2023 — confirmar se seguem vigentes.",
+      "active": true
+    },
+    {
+      "id": "loja-jardim-eldorado",
+      "slug": "jardim-eldorado",
+      "name": "Jardim Eldorado",
+      "displayName": "Kika Jardim Eldorado",
+      "city": "Palhoça",
+      "state": "SC",
+      "neighborhood": "Jardim Eldorado",
+      "address": "Rua Pedro Álvares Cabral, 895",
+      "zip": null,
+      "phone": null,
+      "whatsapp": null,
+      "lat": -27.6275,
+      "lng": -48.658,
+      "photo": "/stores/loja-2.webp",
+      "photoIsIllustrative": true,
+      "hours": [
+        {
+          "day": 0,
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "day": 1,
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "day": 2,
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "day": 3,
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "day": 4,
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "day": 5,
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "day": 6,
+          "opens": "00:00",
+          "closes": "00:00"
+        }
+      ],
+      "features": [
+        "24h",
+        "retirada",
+        "entrega"
+      ],
+      "zipPrefixes": [
+        "88130",
+        "88131",
+        "88132"
+      ],
+      "provenance": {
+        "name": "oficial",
+        "address": "oficial",
+        "hours": "oficial",
+        "contact": "a-confirmar"
+      },
+      "notes": "24h confirmado na bio oficial. Entrega: a unidade aparece no iFood.",
+      "active": true
+    },
+    {
+      "id": "loja-brejaru",
+      "slug": "brejaru",
+      "name": "Brejaru",
+      "displayName": "Kika Brejaru",
+      "city": "Palhoça",
+      "state": "SC",
+      "neighborhood": "Brejaru",
+      "address": "Rua Padre José de Anchieta, 960",
+      "zip": null,
+      "phone": null,
+      "whatsapp": null,
+      "lat": -27.6395,
+      "lng": -48.663,
+      "photo": "/stores/loja-3.webp",
+      "photoIsIllustrative": true,
+      "hours": [
+        {
+          "day": 0,
+          "opens": "10:00",
+          "closes": "00:00"
+        },
+        {
+          "day": 1,
+          "opens": "10:00",
+          "closes": "00:00"
+        },
+        {
+          "day": 2,
+          "opens": "10:00",
+          "closes": "00:00"
+        },
+        {
+          "day": 3,
+          "opens": "10:00",
+          "closes": "00:00"
+        },
+        {
+          "day": 4,
+          "opens": "10:00",
+          "closes": "00:00"
+        },
+        {
+          "day": 5,
+          "opens": "10:00",
+          "closes": "04:00"
+        },
+        {
+          "day": 6,
+          "opens": "10:00",
+          "closes": "04:00"
+        }
+      ],
+      "features": [
+        "retirada"
+      ],
+      "zipPrefixes": [
+        "88133",
+        "88134"
+      ],
+      "provenance": {
+        "name": "oficial",
+        "address": "oficial",
+        "hours": "oficial",
+        "contact": "a-confirmar"
+      },
+      "notes": "Endereço e horário publicados no Instagram oficial em mai/2023 — confirmar se seguem vigentes.",
+      "active": true
+    },
+    {
+      "id": "loja-sertao-do-maruim",
+      "slug": "sertao-do-maruim",
+      "name": "Sertão do Maruim",
+      "displayName": "Kika Sertão do Maruim",
+      "city": "São José",
+      "state": "SC",
+      "neighborhood": "Sertão do Maruim",
+      "address": null,
+      "zip": null,
+      "phone": null,
+      "whatsapp": null,
+      "lat": -27.588,
+      "lng": -48.695,
+      "photo": "/stores/loja-4.webp",
+      "photoIsIllustrative": true,
+      "hours": [],
+      "features": [
+        "retirada"
+      ],
+      "zipPrefixes": [
+        "88122",
+        "88123"
+      ],
+      "provenance": {
+        "name": "informada",
+        "address": "a-confirmar",
+        "hours": "a-confirmar",
+        "contact": "a-confirmar"
+      },
+      "notes": "Unidade informada no briefing. Endereço, horário e contato a confirmar com a Kika.",
+      "active": true
+    },
+    {
+      "id": "loja-unidade-5",
+      "slug": "unidade-5",
+      "name": "Unidade 5",
+      "displayName": "Kika — Unidade 5",
+      "city": "Palhoça ou São José",
+      "state": "SC",
+      "neighborhood": "A confirmar",
+      "address": null,
+      "zip": null,
+      "phone": null,
+      "whatsapp": null,
+      "lat": null,
+      "lng": null,
+      "photo": "/stores/loja-5.webp",
+      "photoIsIllustrative": true,
+      "hours": [],
+      "features": [
+        "retirada"
+      ],
+      "zipPrefixes": [],
+      "provenance": {
+        "name": "a-confirmar",
+        "address": "a-confirmar",
+        "hours": "a-confirmar",
+        "contact": "a-confirmar"
+      },
+      "notes": "A bio oficial cita 5 lojas; esta unidade não foi localizada em fontes públicas.",
+      "active": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-cervejas",
+      "slug": "cervejas",
+      "name": "Cervejas",
+      "order": 1,
+      "image": "/categories/cervejas.webp",
+      "tint": "#E0A42B",
+      "shape": "garrafa-longneck"
+    },
+    {
+      "id": "cat-whisky",
+      "slug": "whisky",
+      "name": "Whisky",
+      "order": 3,
+      "image": "/categories/whisky.webp",
+      "tint": "#8C5A22",
+      "shape": "garrafa-destilado"
+    },
+    {
+      "id": "cat-vodka",
+      "slug": "vodka",
+      "name": "Vodka",
+      "order": 4,
+      "image": "/categories/vodka.webp",
+      "tint": "#5B7C99",
+      "shape": "garrafa-destilado"
+    },
+    {
+      "id": "cat-gin",
+      "slug": "gin",
+      "name": "Gin",
+      "order": 5,
+      "image": "/categories/gin.webp",
+      "tint": "#3F7D62",
+      "shape": "garrafa-destilado"
+    },
+    {
+      "id": "cat-vinhos",
+      "slug": "vinhos-e-espumantes",
+      "name": "Vinhos e espumantes",
+      "order": 6,
+      "image": "/categories/vinhos-e-espumantes.webp",
+      "tint": "#7A2338",
+      "shape": "garrafa-vinho"
+    },
+    {
+      "id": "cat-energeticos",
+      "slug": "energeticos",
+      "name": "Energéticos",
+      "order": 7,
+      "image": "/categories/energeticos.webp",
+      "tint": "#1F4FA8",
+      "shape": "lata"
+    },
+    {
+      "id": "cat-refrigerantes",
+      "slug": "refrigerantes",
+      "name": "Refrigerantes",
+      "order": 8,
+      "image": "/categories/refrigerantes.webp",
+      "tint": "#C2331F",
+      "shape": "garrafa-pet"
+    },
+    {
+      "id": "cat-aguas",
+      "slug": "aguas",
+      "name": "Águas",
+      "order": 9,
+      "image": "/categories/aguas.webp",
+      "tint": "#3D8FC4",
+      "shape": "garrafa-pet"
+    },
+    {
+      "id": "cat-drinks",
+      "slug": "drinks",
+      "name": "Drinks",
+      "order": 10,
+      "image": "/categories/drinks.webp",
+      "tint": "#B8456B",
+      "shape": "lata"
+    },
+    {
+      "id": "cat-gelo",
+      "slug": "gelo",
+      "name": "Gelo",
+      "order": 11,
+      "image": "/categories/gelo.webp",
+      "tint": "#6FA8C7",
+      "shape": "saco"
+    },
+    {
+      "id": "cat-conveniencia",
+      "slug": "conveniencia",
+      "name": "Conveniência",
+      "order": 12,
+      "image": "/categories/conveniencia.webp",
+      "tint": "#9A6B3F",
+      "shape": "caixa"
+    }
+  ],
+  "categoryShortcuts": [
+    {
+      "id": "sc-destilados",
+      "label": "Destilados",
+      "image": "/categories/destilados.webp",
+      "href": "/produtos?ocasiao=destilados",
+      "order": 2
+    },
+    {
+      "id": "sc-combos",
+      "label": "Combos",
+      "image": "/categories/combos.webp",
+      "href": "/combos",
+      "order": 13
+    }
+  ],
+  "products": [
+    {
+      "id": "p-heineken-330",
+      "name": "Heineken Long Neck",
+      "brand": "Heineken",
+      "categoryId": "cat-cervejas",
+      "volume": "330ml",
+      "priceCents": 749,
+      "image": "/products/heineken-330.webp",
+      "colorway": [
+        "#0B6B3A",
+        "#E8C547"
+      ],
+      "description": "Lager puro malte de perfil equilibrado e amargor limpo. A long neck que todo mundo reconhece na caixa térmica.",
+      "tags": [
+        "gelada",
+        "festa",
+        "fim-de-semana",
+        "churrasco"
+      ],
+      "sku": "CER-HNK-330",
+      "popularity": 98,
+      "slug": "heineken-long-neck-330ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-corona-330",
+      "name": "Corona Extra Long Neck",
+      "brand": "Corona",
+      "categoryId": "cat-cervejas",
+      "volume": "330ml",
+      "priceCents": 890,
+      "image": "/products/corona-330.webp",
+      "colorway": [
+        "#E8DCC0",
+        "#1B4E8C"
+      ],
+      "description": "Leve e cítrica, pede uma rodela de limão no gargalo. Cara de praia.",
+      "tags": [
+        "gelada",
+        "fim-de-semana",
+        "premium"
+      ],
+      "sku": "CER-CRN-330",
+      "popularity": 90,
+      "slug": "corona-extra-long-neck-330ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-stella-330",
+      "name": "Stella Artois Long Neck",
+      "brand": "Stella Artois",
+      "categoryId": "cat-cervejas",
+      "volume": "330ml",
+      "priceCents": 729,
+      "image": "/products/stella-330.webp",
+      "colorway": [
+        "#C8A951",
+        "#8B1A1A"
+      ],
+      "description": "Lager belga de amargor elegante. Boa para acompanhar comida de verdade.",
+      "tags": [
+        "gelada",
+        "premium",
+        "fim-de-semana"
+      ],
+      "sku": "CER-STL-330",
+      "popularity": 82,
+      "slug": "stella-artois-long-neck-330ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-spaten-350",
+      "name": "Spaten Munich Helles Long Neck",
+      "brand": "Spaten",
+      "categoryId": "cat-cervejas",
+      "volume": "355ml",
+      "priceCents": 649,
+      "image": "/products/spaten-350.webp",
+      "colorway": [
+        "#1E3A5F",
+        "#D4A017"
+      ],
+      "description": "Helles alemã de corpo macio e final limpo. Puro malte de verdade.",
+      "tags": [
+        "gelada",
+        "churrasco"
+      ],
+      "sku": "CER-SPT-355",
+      "popularity": 84,
+      "slug": "spaten-munich-helles-long-neck-355ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-amstel-350",
+      "name": "Amstel Lager Lata",
+      "brand": "Amstel",
+      "categoryId": "cat-cervejas",
+      "volume": "473ml",
+      "priceCents": 549,
+      "image": "/products/amstel-350.webp",
+      "colorway": [
+        "#C8102E",
+        "#FFFFFF"
+      ],
+      "description": "Puro malte leve e cremosa, no latão. Preço de todo dia, sabor de fim de semana.",
+      "tags": [
+        "gelada",
+        "festa",
+        "churrasco"
+      ],
+      "sku": "CER-AMS-473",
+      "popularity": 93,
+      "slug": "amstel-lager-lata-473ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-eisenbahn-355",
+      "name": "Eisenbahn Pilsen Lata",
+      "brand": "Eisenbahn",
+      "categoryId": "cat-cervejas",
+      "volume": "350ml",
+      "priceCents": 449,
+      "image": "/products/eisenbahn-355.webp",
+      "colorway": [
+        "#8B6914",
+        "#F2E2B8"
+      ],
+      "description": "Pilsen catarinense, dourada e refrescante. Feita aqui do lado.",
+      "tags": [
+        "gelada",
+        "churrasco",
+        "festa",
+        "fim-de-semana"
+      ],
+      "sku": "CER-EIS-350",
+      "popularity": 95,
+      "slug": "eisenbahn-pilsen-lata-350ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-jw-red-1l",
+      "name": "Johnnie Walker Red Label",
+      "brand": "Johnnie Walker",
+      "categoryId": "cat-whisky",
+      "volume": "1L",
+      "priceCents": 9990,
+      "image": "/products/jw-red-1l.webp",
+      "colorway": [
+        "#C8102E",
+        "#1A1A1A"
+      ],
+      "description": "Blended escocês marcante e defumado. Excelente com gelo de coco ou no highball.",
+      "tags": [
+        "destilado",
+        "festa",
+        "esquenta"
+      ],
+      "sku": "WSK-JWR-1L",
+      "popularity": 91,
+      "slug": "johnnie-walker-red-label-1l",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-jw-black-1l",
+      "name": "Johnnie Walker Black Label 12 anos",
+      "brand": "Johnnie Walker",
+      "categoryId": "cat-whisky",
+      "volume": "1L",
+      "priceCents": 18990,
+      "image": "/products/jw-black-1l.webp",
+      "colorway": [
+        "#1A1A1A",
+        "#C8A951"
+      ],
+      "description": "Doze anos de maturação, notas de baunilha e turfa. O presente que nunca erra.",
+      "tags": [
+        "destilado",
+        "presente",
+        "premium"
+      ],
+      "sku": "WSK-JWB-1L",
+      "popularity": 84,
+      "slug": "johnnie-walker-black-label-12-anos-1l",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-jack-1l",
+      "name": "Jack Daniel's Old No. 7",
+      "brand": "Jack Daniel's",
+      "categoryId": "cat-whisky",
+      "volume": "1L",
+      "priceCents": 17990,
+      "image": "/products/jack-1l.webp",
+      "colorway": [
+        "#1A1A1A",
+        "#D4A017"
+      ],
+      "description": "Tennessee whiskey filtrado em carvão de bordo. Baunilha, caramelo e carvalho.",
+      "tags": [
+        "destilado",
+        "presente",
+        "festa"
+      ],
+      "sku": "WSK-JDN-1L",
+      "popularity": 89,
+      "slug": "jack-daniel-s-old-no-7-1l",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-chivas-12-1l",
+      "name": "Chivas Regal 12 anos",
+      "brand": "Chivas Regal",
+      "categoryId": "cat-whisky",
+      "volume": "1L",
+      "priceCents": 16990,
+      "image": "/products/chivas-12-1l.webp",
+      "colorway": [
+        "#1B4E8C",
+        "#C8A951"
+      ],
+      "description": "Blended suave com mel e maçã. Redondo o bastante para beber puro.",
+      "tags": [
+        "destilado",
+        "presente",
+        "premium"
+      ],
+      "sku": "WSK-CHV12-1L",
+      "popularity": 76,
+      "slug": "chivas-regal-12-anos-1l",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-ballantines-1l",
+      "name": "Ballantine's Finest",
+      "brand": "Ballantine's",
+      "categoryId": "cat-whisky",
+      "volume": "1L",
+      "priceCents": 8490,
+      "image": "/products/ballantines-1l.webp",
+      "colorway": [
+        "#B8860B",
+        "#2C2C2C"
+      ],
+      "description": "Blend leve e floral. O whisky de entrada que agrada quase todo mundo.",
+      "tags": [
+        "destilado",
+        "festa",
+        "esquenta"
+      ],
+      "sku": "WSK-BLF-1L",
+      "popularity": 78,
+      "slug": "ballantine-s-finest-1l",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-buchanans-12-1l",
+      "name": "Buchanan's Deluxe 12 anos",
+      "brand": "Buchanan's",
+      "categoryId": "cat-whisky",
+      "volume": "1L",
+      "priceCents": 19990,
+      "image": "/products/buchanans-12-1l.webp",
+      "colorway": [
+        "#1A1A1A",
+        "#1B6B3A"
+      ],
+      "description": "Sedoso, com frutas maduras e toque de fumaça. Presença garantida na mesa.",
+      "tags": [
+        "destilado",
+        "presente",
+        "premium"
+      ],
+      "sku": "WSK-BCH12-1L",
+      "popularity": 72,
+      "slug": "buchanan-s-deluxe-12-anos-1l",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-jameson-750",
+      "name": "Jameson Irish Whiskey",
+      "brand": "Jameson",
+      "categoryId": "cat-whisky",
+      "volume": "750ml",
+      "priceCents": 13990,
+      "image": "/products/jameson-750.webp",
+      "colorway": [
+        "#1B5E3A",
+        "#D4A017"
+      ],
+      "description": "Triplamente destilado, macio e levemente adocicado. Perfeito no ginger ale.",
+      "tags": [
+        "destilado",
+        "premium",
+        "esquenta"
+      ],
+      "sku": "WSK-JMS-750",
+      "popularity": 71,
+      "slug": "jameson-irish-whiskey-750ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-absolut-1l",
+      "name": "Absolut Vodka",
+      "brand": "Absolut",
+      "categoryId": "cat-vodka",
+      "volume": "1L",
+      "priceCents": 8990,
+      "image": "/products/absolut-1l.webp",
+      "colorway": [
+        "#5B7C99",
+        "#1A3A52"
+      ],
+      "description": "Trigo sueco, destilação contínua. Neutra e limpa — base de drink sem defeito.",
+      "tags": [
+        "destilado",
+        "festa",
+        "esquenta"
+      ],
+      "sku": "VDK-ABS-1L",
+      "popularity": 90,
+      "slug": "absolut-vodka-1l",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-smirnoff-998",
+      "name": "Smirnoff Vodka",
+      "brand": "Smirnoff",
+      "categoryId": "cat-vodka",
+      "volume": "998ml",
+      "priceCents": 3990,
+      "image": "/products/smirnoff-998.webp",
+      "colorway": [
+        "#C8102E",
+        "#1B4E8C"
+      ],
+      "description": "Triplo filtrada, preço de festa. A garrafa que some primeiro no esquenta.",
+      "tags": [
+        "destilado",
+        "festa",
+        "esquenta"
+      ],
+      "sku": "VDK-SMR-998",
+      "popularity": 94,
+      "slug": "smirnoff-vodka-998ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-ciroc-750",
+      "name": "Cîroc Peach",
+      "brand": "Cîroc",
+      "categoryId": "cat-vodka",
+      "volume": "750ml",
+      "priceCents": 17990,
+      "image": "/products/ciroc-750.webp",
+      "colorway": [
+        "#F2A65A",
+        "#1A1A1A"
+      ],
+      "description": "Destilada de uvas francesas com pêssego. Frutada e sedosa, pede gelo e nada mais.",
+      "tags": [
+        "destilado",
+        "premium",
+        "presente"
+      ],
+      "sku": "VDK-CRC-PCH750",
+      "popularity": 64,
+      "slug": "ciroc-peach-750ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-absolut-vanilia-750",
+      "name": "Absolut Vanilia",
+      "brand": "Absolut",
+      "categoryId": "cat-vodka",
+      "volume": "750ml",
+      "priceCents": 9990,
+      "image": "/products/absolut-vanilia-750.webp",
+      "colorway": [
+        "#D9A441",
+        "#8B6914"
+      ],
+      "description": "Baunilha de Madagascar. Transforma qualquer drink simples em sobremesa.",
+      "tags": [
+        "destilado",
+        "festa"
+      ],
+      "sku": "VDK-ABV-750",
+      "popularity": 60,
+      "slug": "absolut-vanilia-750ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-tanqueray-750",
+      "name": "Tanqueray London Dry",
+      "brand": "Tanqueray",
+      "categoryId": "cat-gin",
+      "volume": "750ml",
+      "priceCents": 12990,
+      "image": "/products/tanqueray-750.webp",
+      "colorway": [
+        "#0F7A5A",
+        "#C8102E"
+      ],
+      "description": "Quatro botânicos, zimbro afiado. O gin-tônica que virou padrão.",
+      "tags": [
+        "destilado",
+        "premium",
+        "fim-de-semana"
+      ],
+      "sku": "GIN-TNQ-750",
+      "popularity": 92,
+      "slug": "tanqueray-london-dry-750ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-beefeater-750",
+      "name": "Beefeater London Dry",
+      "brand": "Beefeater",
+      "categoryId": "cat-gin",
+      "volume": "750ml",
+      "priceCents": 10990,
+      "image": "/products/beefeater-750.webp",
+      "colorway": [
+        "#C8102E",
+        "#1B4E8C"
+      ],
+      "description": "Cítrico e seco, com casca de laranja. Vai bem com tônica e alecrim.",
+      "tags": [
+        "destilado",
+        "fim-de-semana"
+      ],
+      "sku": "GIN-BFT-750",
+      "popularity": 82,
+      "slug": "beefeater-london-dry-750ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-bombay-750",
+      "name": "Bombay Sapphire",
+      "brand": "Bombay",
+      "categoryId": "cat-gin",
+      "volume": "750ml",
+      "priceCents": 13990,
+      "image": "/products/bombay-750.webp",
+      "colorway": [
+        "#2E6FA8",
+        "#C8D8E8"
+      ],
+      "description": "Dez botânicos por infusão a vapor. Floral, leve e muito aromático.",
+      "tags": [
+        "destilado",
+        "premium",
+        "presente"
+      ],
+      "sku": "GIN-BMB-750",
+      "popularity": 79,
+      "slug": "bombay-sapphire-750ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-gordons-750",
+      "name": "Gordon's London Dry",
+      "brand": "Gordon's",
+      "categoryId": "cat-gin",
+      "volume": "750ml",
+      "priceCents": 6990,
+      "image": "/products/gordons-750.webp",
+      "colorway": [
+        "#1B5E3A",
+        "#D4A017"
+      ],
+      "description": "Direto ao ponto e sem frescura. O gin certo para fazer drink em quantidade.",
+      "tags": [
+        "destilado",
+        "festa",
+        "esquenta"
+      ],
+      "sku": "GIN-GRD-750",
+      "popularity": 86,
+      "slug": "gordon-s-london-dry-750ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-hendricks-750",
+      "name": "Hendrick's Gin",
+      "brand": "Hendrick's",
+      "categoryId": "cat-gin",
+      "volume": "750ml",
+      "priceCents": 22990,
+      "image": "/products/hendricks-750.webp",
+      "colorway": [
+        "#2C2C2C",
+        "#8FA88C"
+      ],
+      "description": "Pepino e pétalas de rosa. Um gin diferente de todos os outros da prateleira.",
+      "tags": [
+        "destilado",
+        "premium",
+        "presente"
+      ],
+      "sku": "GIN-HDK-750",
+      "popularity": 58,
+      "slug": "hendrick-s-gin-750ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-seagers-980",
+      "name": "Seagers Silver Gin",
+      "brand": "Seagers",
+      "categoryId": "cat-gin",
+      "volume": "750ml",
+      "priceCents": 4490,
+      "image": "/products/seagers-980.webp",
+      "colorway": [
+        "#3F7D62",
+        "#E0D8C0"
+      ],
+      "description": "Nacional, seco e econômico. Faz a tônica render a noite inteira.",
+      "tags": [
+        "destilado",
+        "festa",
+        "esquenta"
+      ],
+      "sku": "GIN-SGR-SLV750",
+      "popularity": 75,
+      "slug": "seagers-silver-gin-750ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-casillero-cabernet-750",
+      "name": "Casillero del Diablo Cabernet Sauvignon",
+      "brand": "Casillero del Diablo",
+      "categoryId": "cat-vinhos",
+      "volume": "750ml",
+      "priceCents": 5990,
+      "image": "/products/casillero-cabernet-750.webp",
+      "colorway": [
+        "#5C1A2B",
+        "#C8A951"
+      ],
+      "description": "Chileno encorpado, com cassis e um toque de baunilha. Companheiro de carne vermelha.",
+      "tags": [
+        "presente",
+        "churrasco",
+        "premium"
+      ],
+      "sku": "VIN-CDD-CAB750",
+      "popularity": 87,
+      "slug": "casillero-del-diablo-cabernet-sauvignon-750ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-freixenet-prosecco-750",
+      "name": "Freixenet Prosecco",
+      "brand": "Freixenet",
+      "categoryId": "cat-vinhos",
+      "volume": "750ml",
+      "priceCents": 8990,
+      "image": "/products/freixenet-prosecco-750.webp",
+      "colorway": [
+        "#1A1A1A",
+        "#E8D48B"
+      ],
+      "description": "Italiano leve, com pera e maçã verde. Gelado, some rápido.",
+      "tags": [
+        "festa",
+        "presente",
+        "premium"
+      ],
+      "sku": "VIN-FRX-PRO750",
+      "popularity": 69,
+      "slug": "freixenet-prosecco-750ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-redbull-250",
+      "name": "Red Bull Energy Drink",
+      "brand": "Red Bull",
+      "categoryId": "cat-energeticos",
+      "volume": "250ml",
+      "priceCents": 990,
+      "image": "/products/redbull-250.webp",
+      "colorway": [
+        "#1F4FA8",
+        "#C0C8D0"
+      ],
+      "description": "O energético original. Base obrigatória de vodka energético.",
+      "tags": [
+        "festa",
+        "esquenta",
+        "fim-de-semana"
+      ],
+      "sku": "ENE-RDB-250",
+      "popularity": 94,
+      "slug": "red-bull-energy-drink-250ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-monster-473",
+      "name": "Monster Energy",
+      "brand": "Monster",
+      "categoryId": "cat-energeticos",
+      "volume": "473ml",
+      "priceCents": 949,
+      "image": "/products/monster-473.webp",
+      "colorway": [
+        "#1A1A1A",
+        "#7FD13B"
+      ],
+      "description": "Lata grande, taurina e cafeína. Segura o pique até o fim da noite.",
+      "tags": [
+        "festa",
+        "esquenta"
+      ],
+      "sku": "ENE-MST-473",
+      "popularity": 91,
+      "slug": "monster-energy-473ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-monster-mango-473",
+      "name": "Monster Juiced",
+      "brand": "Monster",
+      "categoryId": "cat-energeticos",
+      "volume": "473ml",
+      "priceCents": 999,
+      "image": "/products/monster-mango-473.webp",
+      "colorway": [
+        "#3BA7E0",
+        "#1A1A1A"
+      ],
+      "description": "Linha com suco de frutas e a pegada Monster. Drink de verão pronto.",
+      "tags": [
+        "festa",
+        "esquenta",
+        "fim-de-semana"
+      ],
+      "sku": "ENE-MST-JCD473",
+      "popularity": 85,
+      "slug": "monster-juiced-473ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-baly-2l",
+      "name": "Baly Tropical",
+      "brand": "Baly",
+      "categoryId": "cat-energeticos",
+      "volume": "2L",
+      "priceCents": 1490,
+      "image": "/products/baly-2l.webp",
+      "colorway": [
+        "#E8B020",
+        "#1B4E8C"
+      ],
+      "description": "Dois litros para dividir. Rende a bateria inteira de drinks.",
+      "tags": [
+        "festa",
+        "esquenta"
+      ],
+      "sku": "ENE-BLY-TRP2L",
+      "popularity": 88,
+      "slug": "baly-tropical-2l",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-tnt-269",
+      "name": "TNT Energy Drink",
+      "brand": "TNT",
+      "categoryId": "cat-energeticos",
+      "volume": "473ml",
+      "priceCents": 749,
+      "image": "/products/tnt-269.webp",
+      "colorway": [
+        "#C8102E",
+        "#1A1A1A"
+      ],
+      "description": "Latão com preço curto e efeito longo. Prático para levar em quantidade.",
+      "tags": [
+        "festa",
+        "esquenta"
+      ],
+      "sku": "ENE-TNT-473",
+      "popularity": 78,
+      "slug": "tnt-energy-drink-473ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-coca-2l",
+      "name": "Coca-Cola Original",
+      "brand": "Coca-Cola",
+      "categoryId": "cat-refrigerantes",
+      "volume": "2,5L",
+      "priceCents": 1299,
+      "image": "/products/coca-2l.webp",
+      "colorway": [
+        "#C2331F",
+        "#1A1A1A"
+      ],
+      "description": "A garrafa grande que aparece em toda mesa. Gelada, claro.",
+      "tags": [
+        "churrasco",
+        "festa",
+        "sem-alcool"
+      ],
+      "sku": "REF-CCL-25L",
+      "popularity": 97,
+      "slug": "coca-cola-original-2-5l",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-coca-zero-2l",
+      "name": "Coca-Cola Sem Açúcar",
+      "brand": "Coca-Cola",
+      "categoryId": "cat-refrigerantes",
+      "volume": "2L",
+      "priceCents": 1099,
+      "image": "/products/coca-zero-2l.webp",
+      "colorway": [
+        "#1A1A1A",
+        "#C2331F"
+      ],
+      "description": "Mesmo sabor, sem açúcar. Para equilibrar a mesa do churrasco.",
+      "tags": [
+        "churrasco",
+        "festa",
+        "sem-alcool"
+      ],
+      "sku": "REF-CCL-ZER2L",
+      "popularity": 89,
+      "slug": "coca-cola-sem-acucar-2l",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-guarana-2l",
+      "name": "Guaraná Antarctica",
+      "brand": "Guaraná Antarctica",
+      "categoryId": "cat-refrigerantes",
+      "volume": "2L",
+      "priceCents": 899,
+      "image": "/products/guarana-2l.webp",
+      "colorway": [
+        "#1B6B3A",
+        "#E8C547"
+      ],
+      "description": "O sabor brasileiro por excelência. Combina com tudo que sai da churrasqueira.",
+      "tags": [
+        "churrasco",
+        "festa",
+        "sem-alcool"
+      ],
+      "sku": "REF-GRN-2L",
+      "popularity": 93,
+      "slug": "guarana-antarctica-2l",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-sprite-2l",
+      "name": "Sprite",
+      "brand": "Sprite",
+      "categoryId": "cat-refrigerantes",
+      "volume": "2L",
+      "priceCents": 849,
+      "image": "/products/sprite-2l.webp",
+      "colorway": [
+        "#1B8A4B",
+        "#C8E8D0"
+      ],
+      "description": "Limão e alta refrescância. Boa base para drinks leves.",
+      "tags": [
+        "festa",
+        "sem-alcool"
+      ],
+      "sku": "REF-SPR-2L",
+      "popularity": 74,
+      "slug": "sprite-2l",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-fanta-2l",
+      "name": "Fanta Laranja",
+      "brand": "Fanta",
+      "categoryId": "cat-refrigerantes",
+      "volume": "2,5L",
+      "priceCents": 999,
+      "image": "/products/fanta-2l.webp",
+      "colorway": [
+        "#E8781F",
+        "#1A5090"
+      ],
+      "description": "Laranja doce e gaseificada. A preferida da criançada na festa.",
+      "tags": [
+        "festa",
+        "sem-alcool"
+      ],
+      "sku": "REF-FNT-LAR25L",
+      "popularity": 72,
+      "slug": "fanta-laranja-2-5l",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-schweppes-tonica-350",
+      "name": "Schweppes Água Tônica",
+      "brand": "Schweppes",
+      "categoryId": "cat-refrigerantes",
+      "volume": "350ml",
+      "priceCents": 499,
+      "image": "/products/schweppes-tonica-350.webp",
+      "colorway": [
+        "#D4A017",
+        "#1B5E3A"
+      ],
+      "description": "Amargor de quinino na medida. A tônica que o gin merece.",
+      "tags": [
+        "sem-alcool",
+        "fim-de-semana"
+      ],
+      "sku": "REF-SCH-TON350",
+      "popularity": 81,
+      "slug": "schweppes-agua-tonica-350ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-agua-mineral-15l",
+      "name": "Água Mineral sem Gás",
+      "brand": "Crystal",
+      "categoryId": "cat-aguas",
+      "volume": "1,5L",
+      "priceCents": 449,
+      "image": "/products/agua-mineral-15l.webp",
+      "colorway": [
+        "#3D8FC4",
+        "#D8ECF5"
+      ],
+      "description": "Mineral natural, garrafa grande. Leve algumas — sempre faltam.",
+      "tags": [
+        "sem-alcool",
+        "churrasco",
+        "festa"
+      ],
+      "sku": "AGU-CRY-15L",
+      "popularity": 88,
+      "slug": "agua-mineral-sem-gas-1-5l",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-smirnoff-ice-275",
+      "name": "Smirnoff Ice",
+      "brand": "Smirnoff",
+      "categoryId": "cat-drinks",
+      "volume": "275ml",
+      "priceCents": 849,
+      "image": "/products/smirnoff-ice-275.webp",
+      "colorway": [
+        "#C8D8E8",
+        "#1B4E8C"
+      ],
+      "description": "Vodka com limão, pronto para beber. Gelado no gargalo e pronto.",
+      "tags": [
+        "festa",
+        "fim-de-semana",
+        "esquenta"
+      ],
+      "sku": "DRK-SMI-275",
+      "popularity": 86,
+      "slug": "smirnoff-ice-275ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-beats-senses-269",
+      "name": "Skol Beats Senses",
+      "brand": "Skol Beats",
+      "categoryId": "cat-drinks",
+      "volume": "269ml",
+      "priceCents": 749,
+      "image": "/products/beats-senses-269.webp",
+      "colorway": [
+        "#1F6FD1",
+        "#E0F0FF"
+      ],
+      "description": "Drink pronto em lata, gelado e fácil. Lata de festa por definição.",
+      "tags": [
+        "festa",
+        "esquenta"
+      ],
+      "sku": "DRK-BTS-SEN269",
+      "popularity": 83,
+      "slug": "skol-beats-senses-269ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-aperol-750",
+      "name": "Aperol Aperitivo",
+      "brand": "Aperol",
+      "categoryId": "cat-drinks",
+      "volume": "750ml",
+      "priceCents": 12990,
+      "image": "/products/aperol-750.webp",
+      "colorway": [
+        "#E8601F",
+        "#F5C078"
+      ],
+      "description": "Laranja amarga e baixa graduação. O spritz começa aqui.",
+      "tags": [
+        "premium",
+        "fim-de-semana",
+        "presente"
+      ],
+      "sku": "DRK-APR-750",
+      "popularity": 68,
+      "slug": "aperol-aperitivo-750ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-campari-998",
+      "name": "Campari",
+      "brand": "Campari",
+      "categoryId": "cat-drinks",
+      "volume": "998ml",
+      "priceCents": 7490,
+      "image": "/products/campari-998.webp",
+      "colorway": [
+        "#B3141C",
+        "#2C2C2C"
+      ],
+      "description": "Amargo intenso e vermelho profundo. Negroni, americano ou com laranja.",
+      "tags": [
+        "premium",
+        "fim-de-semana"
+      ],
+      "sku": "DRK-CMP-998",
+      "popularity": 63,
+      "slug": "campari-998ml",
+      "imageIsIllustrative": false,
+      "active": true
+    },
+    {
+      "id": "p-gelo-cubos-3kg",
+      "name": "Gelo em Cubos",
+      "brand": "Kika",
+      "categoryId": "cat-gelo",
+      "volume": "3kg",
+      "priceCents": 1290,
+      "image": "/products/gelo-cubos-3kg.webp",
+      "imageIsIllustrative": true,
+      "colorway": [
+        "#6FA8C7",
+        "#E0F0F8"
+      ],
+      "description": "Cubos sólidos, saco resistente. Sem gelo não tem churrasco.",
+      "tags": [
+        "churrasco",
+        "festa",
+        "gelada"
+      ],
+      "sku": "GEL-CUB-3KG",
+      "popularity": 96,
+      "slug": "gelo-em-cubos-3kg",
+      "active": true
+    },
+    {
+      "id": "p-gelo-cubos-5kg",
+      "name": "Gelo em Cubos",
+      "brand": "Kika",
+      "categoryId": "cat-gelo",
+      "volume": "5kg",
+      "priceCents": 1890,
+      "image": "/products/gelo-cubos-5kg.webp",
+      "imageIsIllustrative": true,
+      "colorway": [
+        "#5B98B8",
+        "#D8ECF5"
+      ],
+      "description": "Saco grande para caixa térmica cheia. Melhor custo por quilo.",
+      "tags": [
+        "churrasco",
+        "festa",
+        "gelada"
+      ],
+      "sku": "GEL-CUB-5KG",
+      "popularity": 92,
+      "slug": "gelo-em-cubos-5kg",
+      "active": true
+    },
+    {
+      "id": "p-carvao-3kg",
+      "name": "Carvão Vegetal",
+      "brand": "Brasa Boa",
+      "categoryId": "cat-conveniencia",
+      "volume": "3kg",
+      "priceCents": 1890,
+      "image": "/products/carvao-3kg.webp",
+      "imageIsIllustrative": true,
+      "colorway": [
+        "#3A3A3A",
+        "#C87A2F"
+      ],
+      "description": "Acende rápido e mantém a brasa. Pacote para um churrasco médio.",
+      "tags": [
+        "churrasco"
+      ],
+      "sku": "CNV-CRV-3KG",
+      "popularity": 89,
+      "slug": "carvao-vegetal-3kg",
+      "active": true
+    },
+    {
+      "id": "p-carvao-5kg",
+      "name": "Carvão Vegetal",
+      "brand": "Brasa Boa",
+      "categoryId": "cat-conveniencia",
+      "volume": "5kg",
+      "priceCents": 2790,
+      "image": "/products/carvao-5kg.webp",
+      "imageIsIllustrative": true,
+      "colorway": [
+        "#2C2C2C",
+        "#D98B1F"
+      ],
+      "description": "Saco grande para churrasco longo. Brasa firme do começo ao fim.",
+      "tags": [
+        "churrasco"
+      ],
+      "sku": "CNV-CRV-5KG",
+      "popularity": 77,
+      "slug": "carvao-vegetal-5kg",
+      "active": true
+    }
+  ],
+  "inventory": [
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-heineken-330",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-corona-330",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-stella-330",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-spaten-350",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-amstel-350",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-eisenbahn-355",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-jw-red-1l",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-jw-black-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-jack-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-chivas-12-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-ballantines-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-buchanans-12-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-jameson-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-absolut-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-smirnoff-998",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-ciroc-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-absolut-vanilia-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-tanqueray-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-beefeater-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-bombay-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-gordons-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-hendricks-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-seagers-980",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-casillero-cabernet-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-freixenet-prosecco-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-redbull-250",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-monster-473",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-monster-mango-473",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-baly-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-tnt-269",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-coca-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-coca-zero-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-guarana-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-sprite-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-fanta-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-schweppes-tonica-350",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-agua-mineral-15l",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-smirnoff-ice-275",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-beats-senses-269",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-aperol-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-campari-998",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-gelo-cubos-3kg",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-gelo-cubos-5kg",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-carvao-3kg",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sao-sebastiao",
+      "productId": "p-carvao-5kg",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-heineken-330",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-corona-330",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-stella-330",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-spaten-350",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-amstel-350",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-eisenbahn-355",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-jw-red-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-jw-black-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-jack-1l",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-chivas-12-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-ballantines-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-buchanans-12-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-jameson-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-absolut-1l",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-smirnoff-998",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-ciroc-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-absolut-vanilia-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-tanqueray-750",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-beefeater-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-bombay-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-gordons-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-hendricks-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-seagers-980",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-casillero-cabernet-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-freixenet-prosecco-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-redbull-250",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-monster-473",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-monster-mango-473",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-baly-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-tnt-269",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-coca-2l",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-coca-zero-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-guarana-2l",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-sprite-2l",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-fanta-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-schweppes-tonica-350",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-agua-mineral-15l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-smirnoff-ice-275",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-beats-senses-269",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-aperol-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-campari-998",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-gelo-cubos-3kg",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-gelo-cubos-5kg",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-carvao-3kg",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-jardim-eldorado",
+      "productId": "p-carvao-5kg",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-heineken-330",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-corona-330",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-stella-330",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-spaten-350",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-amstel-350",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-eisenbahn-355",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-jw-red-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-jw-black-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-jack-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-chivas-12-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-ballantines-1l",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-buchanans-12-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-jameson-750",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-absolut-1l",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-smirnoff-998",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-ciroc-750",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-absolut-vanilia-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-tanqueray-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-beefeater-750",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-bombay-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-gordons-750",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-hendricks-750",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-seagers-980",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-casillero-cabernet-750",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-freixenet-prosecco-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-redbull-250",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-monster-473",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-monster-mango-473",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-baly-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-tnt-269",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-coca-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-coca-zero-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-guarana-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-sprite-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-fanta-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-schweppes-tonica-350",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-agua-mineral-15l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-smirnoff-ice-275",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-beats-senses-269",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-aperol-750",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-campari-998",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-gelo-cubos-3kg",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-gelo-cubos-5kg",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-carvao-3kg",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-brejaru",
+      "productId": "p-carvao-5kg",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-heineken-330",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-corona-330",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-stella-330",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-spaten-350",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-amstel-350",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-eisenbahn-355",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-jw-red-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-jw-black-1l",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-jack-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-chivas-12-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-ballantines-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-buchanans-12-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-jameson-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-absolut-1l",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-smirnoff-998",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-ciroc-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-absolut-vanilia-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-tanqueray-750",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-beefeater-750",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-bombay-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-gordons-750",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-hendricks-750",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-seagers-980",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-casillero-cabernet-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-freixenet-prosecco-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-redbull-250",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-monster-473",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-monster-mango-473",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-baly-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-tnt-269",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-coca-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-coca-zero-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-guarana-2l",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-sprite-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-fanta-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-schweppes-tonica-350",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-agua-mineral-15l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-smirnoff-ice-275",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-beats-senses-269",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-aperol-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-campari-998",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-gelo-cubos-3kg",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-gelo-cubos-5kg",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-carvao-3kg",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-sertao-do-maruim",
+      "productId": "p-carvao-5kg",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-heineken-330",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-corona-330",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-stella-330",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-spaten-350",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-amstel-350",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-eisenbahn-355",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-jw-red-1l",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-jw-black-1l",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-jack-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-chivas-12-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-ballantines-1l",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-buchanans-12-1l",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-jameson-750",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-absolut-1l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-smirnoff-998",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-ciroc-750",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-absolut-vanilia-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-tanqueray-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-beefeater-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-bombay-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-gordons-750",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-hendricks-750",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-seagers-980",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-casillero-cabernet-750",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-freixenet-prosecco-750",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-redbull-250",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-monster-473",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-monster-mango-473",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-baly-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-tnt-269",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-coca-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-coca-zero-2l",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-guarana-2l",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-sprite-2l",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-fanta-2l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-schweppes-tonica-350",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-agua-mineral-15l",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-smirnoff-ice-275",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-beats-senses-269",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-aperol-750",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-campari-998",
+      "status": "indisponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-gelo-cubos-3kg",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-gelo-cubos-5kg",
+      "status": "ultimas-unidades"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-carvao-3kg",
+      "status": "disponivel"
+    },
+    {
+      "storeId": "loja-unidade-5",
+      "productId": "p-carvao-5kg",
+      "status": "disponivel"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "promo-heineken",
+      "productId": "p-heineken-330",
+      "promoPriceCents": 599,
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "label": "Na caixa com 12",
+      "active": true
+    },
+    {
+      "id": "promo-eisenbahn",
+      "productId": "p-eisenbahn-355",
+      "promoPriceCents": 369,
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "label": null,
+      "active": true
+    },
+    {
+      "id": "promo-gelo-5kg",
+      "productId": "p-gelo-cubos-5kg",
+      "promoPriceCents": 1390,
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "label": null,
+      "active": true
+    },
+    {
+      "id": "promo-coca-2l",
+      "productId": "p-coca-2l",
+      "promoPriceCents": 999,
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "label": "Leve 2",
+      "active": true
+    },
+    {
+      "id": "promo-redbull",
+      "productId": "p-redbull-250",
+      "promoPriceCents": 749,
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "label": null,
+      "active": true
+    },
+    {
+      "id": "promo-tanqueray",
+      "productId": "p-tanqueray-750",
+      "promoPriceCents": 10990,
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "label": null,
+      "active": true
+    },
+    {
+      "id": "promo-smirnoff",
+      "productId": "p-smirnoff-998",
+      "promoPriceCents": 3190,
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "label": null,
+      "active": true
+    },
+    {
+      "id": "promo-carvao-5kg",
+      "productId": "p-carvao-5kg",
+      "promoPriceCents": 2190,
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "label": null,
+      "active": true
+    },
+    {
+      "id": "promo-casillero",
+      "productId": "p-casillero-cabernet-750",
+      "promoPriceCents": 4590,
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "label": null,
+      "active": true
+    },
+    {
+      "id": "promo-monster",
+      "productId": "p-monster-473",
+      "promoPriceCents": 749,
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "label": "Leve 3 pague 2",
+      "active": true
+    },
+    {
+      "id": "promo-gordons",
+      "productId": "p-gordons-750",
+      "promoPriceCents": 5990,
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "label": null,
+      "active": true
+    },
+    {
+      "id": "promo-guarana",
+      "productId": "p-guarana-2l",
+      "promoPriceCents": 699,
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "label": null,
+      "active": true
+    },
+    {
+      "id": "promo-corona-sao-sebastiao",
+      "productId": "p-corona-330",
+      "promoPriceCents": 699,
+      "storeIds": [
+        "loja-sao-sebastiao"
+      ],
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "label": "Só na São Sebastião",
+      "active": true
+    },
+    {
+      "id": "promo-jwred-jardim",
+      "productId": "p-jw-red-1l",
+      "promoPriceCents": 8490,
+      "storeIds": [
+        "loja-jardim-eldorado",
+        "loja-sao-sebastiao"
+      ],
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "label": null,
+      "active": true
+    },
+    {
+      "id": "promo-amstel-brejaru",
+      "productId": "p-amstel-350",
+      "promoPriceCents": 449,
+      "storeIds": [
+        "loja-brejaru",
+        "loja-unidade-5"
+      ],
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "label": "Preço de bairro",
+      "active": true
+    },
+    {
+      "id": "promo-beats-sertao",
+      "productId": "p-beats-senses-269",
+      "promoPriceCents": 599,
+      "storeIds": [
+        "loja-sertao-do-maruim"
+      ],
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "label": null,
+      "active": true
+    },
+    {
+      "id": "promo-freixenet-jardim",
+      "productId": "p-freixenet-prosecco-750",
+      "promoPriceCents": 7490,
+      "storeIds": [
+        "loja-jardim-eldorado"
+      ],
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "label": null,
+      "active": true
+    },
+    {
+      "id": "promo-spaten",
+      "productId": "p-spaten-350",
+      "promoPriceCents": 529,
+      "storeIds": [
+        "loja-brejaru",
+        "loja-sertao-do-maruim",
+        "loja-unidade-5"
+      ],
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "label": null,
+      "active": true
+    },
+    {
+      "id": "promo-natal-agendada",
+      "productId": "p-jw-black-1l",
+      "promoPriceCents": 15990,
+      "storeIds": null,
+      "startsAt": "2026-12-10T00:00:00-03:00",
+      "endsAt": "2026-12-26T23:59:59-03:00",
+      "label": "Campanha de Natal",
+      "active": true
+    },
+    {
+      "id": "promo-inverno-encerrada",
+      "productId": "p-jameson-750",
+      "promoPriceCents": 11990,
+      "storeIds": null,
+      "startsAt": "2026-06-01T00:00:00-03:00",
+      "endsAt": "2026-08-31T23:59:59-03:00",
+      "label": "Esquenta de inverno",
+      "active": true
+    }
+  ],
+  "banners": [
+    {
+      "id": "hero-cervejas",
+      "format": "hero",
+      "imageDesktop": "/banners/arte-cerveja-gelada-desktop.webp",
+      "imageMobile": "/banners/arte-cerveja-gelada-mobile.webp",
+      "alt": "Oferta da semana: cerveja gelada com preço de caixa. Heineken long neck por R$ 5,99 na caixa fechada com 12.",
+      "showText": false,
+      "eyebrow": "Oferta da semana",
+      "title": "Cerveja gelada\ncom preço de caixa",
+      "subtitle": "Heineken long neck por R$ 5,99 na caixa fechada com 12.",
+      "ctaLabel": "Pegar a oferta",
+      "href": "/produto/heineken-long-neck-330ml",
+      "theme": {
+        "bg": "#141210",
+        "accent": "#D9A55B",
+        "ink": "#FFFFFF"
+      },
+      "linkedCategoryId": "cat-cervejas",
+      "linkedProductId": "p-heineken-330",
+      "linkedComboId": null,
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "order": 1,
+      "active": true
+    },
+    {
+      "id": "hero-24h",
+      "format": "hero",
+      "imageDesktop": "/banners/arte-aberto-24h-desktop.webp",
+      "imageMobile": "/banners/arte-aberto-24h-mobile.webp",
+      "alt": "Unidade Jardim Eldorado, Palhoça: aberto 24 horas. A qualquer hora, tem Kika aberta.",
+      "showText": false,
+      "eyebrow": "Unidade Jardim Eldorado",
+      "title": "Aberto\n24 horas",
+      "subtitle": "A qualquer hora, tem Kika aberta.",
+      "ctaLabel": null,
+      "href": "/lojas",
+      "theme": {
+        "bg": "#141210",
+        "accent": "#D9A55B",
+        "ink": "#FFFFFF"
+      },
+      "linkedCategoryId": null,
+      "linkedProductId": null,
+      "linkedComboId": null,
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "order": 2,
+      "active": true
+    },
+    {
+      "id": "hero-churrasco",
+      "format": "hero",
+      "imageDesktop": "/banners/arte-churrasco-desktop.webp",
+      "imageMobile": "/banners/arte-churrasco-mobile.webp",
+      "alt": "Combo churrasco: cerveja, gelo e carvão num pedido só. Kit montado e conferido na sua Kika.",
+      "showText": false,
+      "eyebrow": "Combo churrasco",
+      "title": "Cerveja, gelo e carvão\nnum pedido só",
+      "subtitle": "Kit montado e conferido na sua Kika.",
+      "ctaLabel": "Montar meu churrasco",
+      "href": "/combos",
+      "theme": {
+        "bg": "#141210",
+        "accent": "#D9A55B",
+        "ink": "#FFFFFF"
+      },
+      "linkedCategoryId": null,
+      "linkedProductId": null,
+      "linkedComboId": "combo-churrasco",
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "order": 3,
+      "active": true
+    },
+    {
+      "id": "hero-destilados",
+      "format": "hero",
+      "imageDesktop": "/banners/arte-tanqueray-desktop.webp",
+      "imageMobile": "/banners/arte-tanqueray-mobile.webp",
+      "alt": "Destilados: Tanqueray por R$ 109,90. E mais rótulos de whisky, gin e vodka com desconto.",
+      "showText": false,
+      "eyebrow": "Destilados",
+      "title": "Tanqueray\npor R$ 109,90",
+      "subtitle": "E mais rótulos de whisky, gin e vodka com desconto.",
+      "ctaLabel": "Ver destilados",
+      "href": "/produtos?ocasiao=destilados",
+      "theme": {
+        "bg": "#141210",
+        "accent": "#D9A55B",
+        "ink": "#FFFFFF"
+      },
+      "linkedCategoryId": "cat-gin",
+      "linkedProductId": "p-tanqueray-750",
+      "linkedComboId": null,
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "order": 4,
+      "active": true
+    },
+    {
+      "id": "hero-prosecco-jardim",
+      "format": "hero",
+      "imageDesktop": "/banners/fim-de-semana-desktop.webp",
+      "imageMobile": "/banners/fim-de-semana-mobile.webp",
+      "alt": "Amigos brindando ao pôr do sol na praia",
+      "showText": true,
+      "eyebrow": "Só no Jardim Eldorado",
+      "title": "Fim de semana\ncom Prosecco",
+      "subtitle": "Freixenet Prosecco por R$ 74,90.",
+      "ctaLabel": "Quero esse",
+      "href": "/produto/freixenet-prosecco-750ml",
+      "theme": {
+        "bg": "#141210",
+        "accent": "#D9A55B",
+        "ink": "#FFFFFF"
+      },
+      "linkedCategoryId": null,
+      "linkedProductId": "p-freixenet-prosecco-750",
+      "linkedComboId": null,
+      "storeIds": [
+        "loja-jardim-eldorado"
+      ],
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "order": 0,
+      "active": true
+    },
+    {
+      "id": "duplo-gin",
+      "format": "duplo",
+      "imageDesktop": "/banners/arte-combo-gin-desktop.webp",
+      "imageMobile": "/banners/arte-combo-gin-mobile.webp",
+      "alt": "Combo gin tônica: gin, tônica e gelo em um pedido só.",
+      "showText": false,
+      "eyebrow": "Combo gin tônica",
+      "title": "Gin, tônica e gelo\nem um pedido só",
+      "subtitle": null,
+      "ctaLabel": "Ver combo",
+      "href": "/combos",
+      "theme": {
+        "bg": "#141210",
+        "accent": "#D9A55B",
+        "ink": "#FFFFFF"
+      },
+      "linkedCategoryId": null,
+      "linkedProductId": null,
+      "linkedComboId": "combo-gin",
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "order": 1,
+      "active": true
+    },
+    {
+      "id": "duplo-energeticos",
+      "format": "duplo",
+      "imageDesktop": "/banners/arte-monster-desktop.webp",
+      "imageMobile": "/banners/arte-monster-mobile.webp",
+      "alt": "Esquenta: Monster leve 3 pague 2.",
+      "showText": false,
+      "eyebrow": "Esquenta",
+      "title": "Monster\nleve 3 pague 2",
+      "subtitle": null,
+      "ctaLabel": "Aproveitar",
+      "href": "/produto/monster-energy-473ml",
+      "theme": {
+        "bg": "#141210",
+        "accent": "#D9A55B",
+        "ink": "#FFFFFF"
+      },
+      "linkedCategoryId": null,
+      "linkedProductId": "p-monster-473",
+      "linkedComboId": null,
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "order": 2,
+      "active": true
+    },
+    {
+      "id": "faixa-presentes",
+      "format": "faixa",
+      "imageDesktop": "/banners/arte-presentes-desktop.webp",
+      "imageMobile": "/banners/arte-presentes-mobile.webp",
+      "alt": "Para presentear: whisky 12 anos para quem merece. Black Label, Chivas e Buchanan's na sua Kika.",
+      "showText": false,
+      "eyebrow": "Para presentear",
+      "title": "Whisky 12 anos para quem merece",
+      "subtitle": "Black Label, Chivas e Buchanan's na sua Kika.",
+      "ctaLabel": "Ver whiskys",
+      "href": "/produtos?categoria=whisky",
+      "theme": {
+        "bg": "#141210",
+        "accent": "#D9A55B",
+        "ink": "#FFFFFF"
+      },
+      "linkedCategoryId": "cat-whisky",
+      "linkedProductId": null,
+      "linkedComboId": null,
+      "storeIds": null,
+      "startsAt": "2026-09-01T00:00:00-03:00",
+      "endsAt": "2026-12-31T23:59:59-03:00",
+      "order": 1,
+      "active": true
+    },
+    {
+      "id": "hero-natal",
+      "format": "hero",
+      "imageDesktop": "/banners/presentes-desktop.webp",
+      "imageMobile": "/banners/presentes-mobile.webp",
+      "alt": "Garrafa de whisky para presente",
+      "showText": true,
+      "eyebrow": "Campanha de Natal",
+      "title": "A ceia começa\nna Kika",
+      "subtitle": "Espumantes e whiskys para presentear.",
+      "ctaLabel": "Ver campanha",
+      "href": "/ofertas",
+      "theme": {
+        "bg": "#141210",
+        "accent": "#D9A55B",
+        "ink": "#FFFFFF"
+      },
+      "linkedCategoryId": "cat-vinhos",
+      "linkedProductId": null,
+      "linkedComboId": null,
+      "storeIds": null,
+      "startsAt": "2026-12-10T00:00:00-03:00",
+      "endsAt": "2026-12-26T23:59:59-03:00",
+      "order": 0,
+      "active": true
+    },
+    {
+      "id": "hero-inverno",
+      "format": "hero",
+      "imageDesktop": "/banners/destilados-desktop.webp",
+      "imageMobile": "/banners/destilados-mobile.webp",
+      "alt": "Copo de whisky",
+      "showText": true,
+      "eyebrow": "Esquenta de inverno",
+      "title": "Whisky com\naté 30% off",
+      "subtitle": "Campanha encerrada em 31/08.",
+      "ctaLabel": "Ver ofertas",
+      "href": "/ofertas",
+      "theme": {
+        "bg": "#141210",
+        "accent": "#D9A55B",
+        "ink": "#FFFFFF"
+      },
+      "linkedCategoryId": "cat-whisky",
+      "linkedProductId": null,
+      "linkedComboId": null,
+      "storeIds": null,
+      "startsAt": "2026-06-01T00:00:00-03:00",
+      "endsAt": "2026-08-31T23:59:59-03:00",
+      "order": 5,
+      "active": true
+    }
+  ],
+  "combos": [
+    {
+      "id": "combo-churrasco",
+      "slug": "combo-churrasco",
+      "name": "Combo Churrasco",
+      "tagline": "Cerveja gelada, gelo e carvão. Só falta a carne.",
+      "items": [
+        {
+          "productId": "p-eisenbahn-355",
+          "quantity": 12
+        },
+        {
+          "productId": "p-gelo-cubos-5kg",
+          "quantity": 1
+        },
+        {
+          "productId": "p-carvao-5kg",
+          "quantity": 1
+        },
+        {
+          "productId": "p-guarana-2l",
+          "quantity": 1
+        }
+      ],
+      "priceCents": 8490,
+      "image": "/combos/combo-churrasco.webp",
+      "theme": {
+        "bg": "#141210",
+        "accent": "#D9A55B",
+        "ink": "#FFFFFF"
+      },
+      "storeIds": null,
+      "featured": true,
+      "serves": "6 a 8 pessoas",
+      "active": true
+    },
+    {
+      "id": "combo-esquenta",
+      "slug": "combo-esquenta",
+      "name": "Combo Esquenta",
+      "tagline": "Vodka, energético e gelo antes de sair de casa.",
+      "items": [
+        {
+          "productId": "p-smirnoff-998",
+          "quantity": 1
+        },
+        {
+          "productId": "p-redbull-250",
+          "quantity": 6
+        },
+        {
+          "productId": "p-gelo-cubos-3kg",
+          "quantity": 1
+        }
+      ],
+      "priceCents": 9490,
+      "image": "/combos/combo-esquenta.webp",
+      "theme": {
+        "bg": "#141210",
+        "accent": "#D9A55B",
+        "ink": "#FFFFFF"
+      },
+      "storeIds": null,
+      "featured": true,
+      "serves": "6 pessoas",
+      "active": true
+    },
+    {
+      "id": "combo-gin",
+      "slug": "combo-gin",
+      "name": "Combo Gin Tônica",
+      "tagline": "Gin, tônica e gelo. Seis drinks prontos.",
+      "items": [
+        {
+          "productId": "p-beefeater-750",
+          "quantity": 1
+        },
+        {
+          "productId": "p-schweppes-tonica-350",
+          "quantity": 6
+        },
+        {
+          "productId": "p-gelo-cubos-3kg",
+          "quantity": 1
+        }
+      ],
+      "priceCents": 13490,
+      "image": "/combos/combo-gin.webp",
+      "theme": {
+        "bg": "#141210",
+        "accent": "#D9A55B",
+        "ink": "#FFFFFF"
+      },
+      "storeIds": null,
+      "featured": true,
+      "serves": "6 drinks",
+      "active": true
+    },
+    {
+      "id": "combo-whisky",
+      "slug": "combo-whisky",
+      "name": "Combo Whisky",
+      "tagline": "Red Label, gelo e energético para o highball.",
+      "items": [
+        {
+          "productId": "p-jw-red-1l",
+          "quantity": 1
+        },
+        {
+          "productId": "p-gelo-cubos-3kg",
+          "quantity": 1
+        },
+        {
+          "productId": "p-redbull-250",
+          "quantity": 4
+        }
+      ],
+      "priceCents": 12490,
+      "image": "/combos/combo-whisky.webp",
+      "theme": {
+        "bg": "#141210",
+        "accent": "#D9A55B",
+        "ink": "#FFFFFF"
+      },
+      "storeIds": null,
+      "featured": true,
+      "serves": "8 doses",
+      "active": true
+    },
+    {
+      "id": "combo-festa",
+      "slug": "combo-festa",
+      "name": "Combo Festa",
+      "tagline": "Caixa térmica cheia para a casa lotada.",
+      "items": [
+        {
+          "productId": "p-amstel-350",
+          "quantity": 24
+        },
+        {
+          "productId": "p-coca-2l",
+          "quantity": 2
+        },
+        {
+          "productId": "p-gelo-cubos-5kg",
+          "quantity": 2
+        },
+        {
+          "productId": "p-agua-mineral-15l",
+          "quantity": 4
+        }
+      ],
+      "priceCents": 17990,
+      "image": "/combos/combo-festa.webp",
+      "theme": {
+        "bg": "#141210",
+        "accent": "#D9A55B",
+        "ink": "#FFFFFF"
+      },
+      "storeIds": null,
+      "featured": true,
+      "serves": "12 a 15 pessoas",
+      "active": true
+    },
+    {
+      "id": "combo-gelada",
+      "slug": "combo-gelada",
+      "name": "Combo Gelada",
+      "tagline": "O básico bem feito: 12 long necks e 3kg de gelo.",
+      "items": [
+        {
+          "productId": "p-heineken-330",
+          "quantity": 12
+        },
+        {
+          "productId": "p-gelo-cubos-3kg",
+          "quantity": 1
+        }
+      ],
+      "priceCents": 7990,
+      "image": "/combos/combo-gelada.webp",
+      "theme": {
+        "bg": "#141210",
+        "accent": "#D9A55B",
+        "ink": "#FFFFFF"
+      },
+      "storeIds": null,
+      "featured": true,
+      "serves": "4 a 6 pessoas",
+      "active": true
+    },
+    {
+      "id": "combo-praia",
+      "slug": "combo-praia",
+      "name": "Combo Praia",
+      "tagline": "Leve, gelado e fácil de carregar.",
+      "items": [
+        {
+          "productId": "p-corona-330",
+          "quantity": 6
+        },
+        {
+          "productId": "p-agua-mineral-15l",
+          "quantity": 2
+        },
+        {
+          "productId": "p-gelo-cubos-3kg",
+          "quantity": 1
+        }
+      ],
+      "priceCents": 6490,
+      "image": "/combos/combo-praia.webp",
+      "theme": {
+        "bg": "#141210",
+        "accent": "#D9A55B",
+        "ink": "#FFFFFF"
+      },
+      "storeIds": [
+        "loja-sao-sebastiao",
+        "loja-jardim-eldorado",
+        "loja-brejaru"
+      ],
+      "featured": false,
+      "serves": "3 a 4 pessoas",
+      "active": true
+    }
+  ],
+  "occasions": [
+    {
+      "id": "oc-churrasco",
+      "slug": "churrasco",
+      "name": "Churrasco",
+      "caption": "Cerveja, gelo e carvão",
+      "tag": "churrasco",
+      "tint": "#B3391F",
+      "image": "/categories/ocasiao-churrasco.webp",
+      "showText": false
+    },
+    {
+      "id": "oc-festa",
+      "slug": "festa",
+      "name": "Festa",
+      "caption": "Para encher a caixa térmica",
+      "tag": "festa",
+      "tint": "#7B2D8E",
+      "image": "/categories/ocasiao-festa.webp",
+      "showText": false
+    },
+    {
+      "id": "oc-esquenta",
+      "slug": "esquenta",
+      "name": "Esquenta",
+      "caption": "Antes de sair",
+      "tag": "esquenta",
+      "tint": "#1F4FA8",
+      "image": "/categories/ocasiao-esquenta.webp",
+      "showText": false
+    },
+    {
+      "id": "oc-presentes",
+      "slug": "presentes",
+      "name": "Presentes",
+      "caption": "Rótulos que impressionam",
+      "tag": "presente",
+      "tint": "#8C5A22",
+      "image": "/categories/ocasiao-presentes.webp",
+      "showText": false
+    },
+    {
+      "id": "oc-fim-de-semana",
+      "slug": "fim-de-semana",
+      "name": "Fim de semana",
+      "caption": "Sexta já começou",
+      "tag": "fim-de-semana",
+      "tint": "#0F7A5A",
+      "image": "/categories/ocasiao-fim-de-semana.webp",
+      "showText": false
+    },
+    {
+      "id": "oc-geladas",
+      "slug": "geladas",
+      "name": "Geladas",
+      "caption": "Direto da câmara fria",
+      "tag": "gelada",
+      "tint": "#2E7FA8",
+      "image": "/categories/ocasiao-geladas.webp",
+      "showText": false
+    },
+    {
+      "id": "oc-destilados",
+      "slug": "destilados",
+      "name": "Destilados",
+      "caption": "Whisky, gin e vodka",
+      "tag": "destilado",
+      "tint": "#4A3628",
+      "image": "/categories/ocasiao-destilados.webp",
+      "showText": false
+    }
+  ],
+  "settings": {
+    "defaultStoreId": "loja-sao-sebastiao",
+    "orderGreeting": "Olá, Kika {loja}! Quero fazer este pedido para retirada:",
+    "orderClosing": "",
+    "instagram": "kikabebidas",
+    "showBenefits": true,
+    "benefits": [
+      {
+        "id": "bf-lojas",
+        "icon": "lojas",
+        "title": "5 lojas",
+        "text": "Em Palhoça e São José",
+        "href": "/lojas"
+      },
+      {
+        "id": "bf-24h",
+        "icon": "relogio",
+        "title": "Aberto 24 horas",
+        "text": "Unidade Jardim Eldorado",
+        "href": "/lojas"
+      },
+      {
+        "id": "bf-estoque",
+        "icon": "estoque",
+        "title": "Estoque por loja",
+        "text": "Veja o que tem na sua Kika",
+        "href": "/produtos"
+      },
+      {
+        "id": "bf-whats",
+        "icon": "whatsapp",
+        "title": "Peça e retire",
+        "text": "Pedido pronto pelo WhatsApp",
+        "href": "/combos"
+      }
+    ],
+    "menu": [
+      {
+        "id": "mn-cervejas",
+        "label": "Cervejas",
+        "href": "/produtos?categoria=cervejas",
+        "highlight": false
+      },
+      {
+        "id": "mn-destilados",
+        "label": "Destilados",
+        "href": "/produtos?ocasiao=destilados",
+        "highlight": false
+      },
+      {
+        "id": "mn-vinhos",
+        "label": "Vinhos",
+        "href": "/produtos?categoria=vinhos-e-espumantes",
+        "highlight": false
+      },
+      {
+        "id": "mn-energeticos",
+        "label": "Energéticos",
+        "href": "/produtos?categoria=energeticos",
+        "highlight": false
+      },
+      {
+        "id": "mn-refrigerantes",
+        "label": "Refrigerantes",
+        "href": "/produtos?categoria=refrigerantes",
+        "highlight": false
+      },
+      {
+        "id": "mn-gelo",
+        "label": "Gelo",
+        "href": "/produtos?categoria=gelo",
+        "highlight": false
+      },
+      {
+        "id": "mn-combos",
+        "label": "Combos",
+        "href": "/combos",
+        "highlight": false
+      },
+      {
+        "id": "mn-ofertas",
+        "label": "Ofertas da semana",
+        "href": "/ofertas",
+        "highlight": true
+      }
+    ],
+    "searchSuggestions": [
+      "Heineken",
+      "Gin",
+      "Gelo",
+      "Energético",
+      "Whisky"
+    ],
+    "storeNotice": {
+      "enabled": true,
+      "text": "Quer a unidade mais perto de você?"
+    },
+    "homeSections": [
+      {
+        "id": "ofertas",
+        "visible": true,
+        "order": 1
+      },
+      {
+        "id": "banners-duplos",
+        "visible": true,
+        "order": 2
+      },
+      {
+        "id": "mais-vendidos",
+        "visible": true,
+        "order": 3
+      },
+      {
+        "id": "combos",
+        "visible": true,
+        "order": 4
+      },
+      {
+        "id": "faixa",
+        "visible": true,
+        "order": 5
+      },
+      {
+        "id": "trilho-ocasiao",
+        "visible": true,
+        "order": 6
+      },
+      {
+        "id": "ocasioes",
+        "visible": true,
+        "order": 7
+      },
+      {
+        "id": "lojas",
+        "visible": true,
+        "order": 8
+      }
+    ],
+    "tagRail": {
+      "tag": "destilado",
+      "eyebrow": "Whisky, gin e vodka",
+      "title": "Destilados"
+    }
+  },
+  "users": [
+    {
+      "id": "usr-dono",
+      "name": "Proprietário",
+      "email": "",
+      "role": "dono",
+      "storeId": null,
+      "active": true
+    },
+    {
+      "id": "usr-sao-sebastiao",
+      "name": "Gerente São Sebastião",
+      "email": "",
+      "role": "gerente",
+      "storeId": "loja-sao-sebastiao",
+      "active": true
+    },
+    {
+      "id": "usr-jardim-eldorado",
+      "name": "Gerente Jardim Eldorado",
+      "email": "",
+      "role": "gerente",
+      "storeId": "loja-jardim-eldorado",
+      "active": true
+    },
+    {
+      "id": "usr-brejaru",
+      "name": "Gerente Brejaru",
+      "email": "",
+      "role": "gerente",
+      "storeId": "loja-brejaru",
+      "active": true
+    },
+    {
+      "id": "usr-sertao-do-maruim",
+      "name": "Gerente Sertão do Maruim",
+      "email": "",
+      "role": "gerente",
+      "storeId": "loja-sertao-do-maruim",
+      "active": true
+    },
+    {
+      "id": "usr-unidade-5",
+      "name": "Gerente Unidade 5",
+      "email": "",
+      "role": "gerente",
+      "storeId": "loja-unidade-5",
+      "active": true
+    }
+  ]
+};
+

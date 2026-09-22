@@ -1,0 +1,14 @@
+@import './kika_original.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: var(--font-inter), Inter, system-ui, sans-serif;
+  }
+  .font-display {
+    font-family: var(--font-montserrat), Montserrat, Inter, sans-serif;
+  }
+}
