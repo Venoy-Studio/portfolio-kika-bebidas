@@ -33,7 +33,7 @@ export function Footer() {
               Tradição, qualidade e confiança. 5 lojas em Palhoça e São José — uma delas aberta 24 horas.
             </p>
             <a
-              href="https://www.instagram.com/kikabebidas/"
+              href="https://www.instagram.com/kikabebidas.demo/"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-5 inline-flex items-center gap-2 rounded-full border border-white/20 px-4 py-2 text-[13px] font-semibold transition hover:bg-white hover:text-primary"
