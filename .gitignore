@@ -1,6 +1,8 @@
 node_modules
 .next
 out
+.vercel
+.worker-next
 .DS_Store
 *.pem
 npm-debug.log*
